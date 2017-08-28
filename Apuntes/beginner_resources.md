@@ -1,7 +1,7 @@
 # Antes de empezar
 
 
-¿Te has apuntado al grupo de aprendizaje de NLTK, pero nunca has programado antes y no sabes por dónde emepzar? No te preocupes, aquí vas a encontrar unos enlaces que te van a ayudar.   
+¿Te has apuntado al grupo de aprendizaje de NLTK, pero nunca has programado antes y no sabes por dónde empezar? No te preocupes, aquí vas a encontrar unos enlaces que te van a ayudar.   
 
 Con este documento no pretendemos ofrecer una lista completa de recursos sobre programación en general y Python en particular, sino un pequeño "track" después del que tendrás conocimientos básicos de Python y sabrás crear y ejecutar un script.
 
@@ -25,15 +25,15 @@ En cuanto empieces a programar por tu cuenta, vas a tener que aprender a manejar
 
 Para poder utilizar Python lo tienes que tener instalado en tu ordenador. Hay diferentes maneras de hacerlo, pero te recomendamos que utilices [Anaconda](https://www.anaconda.com/download/), una distribución de Python que viene con muchos paquetes preinstalados, entre ellos NLTK.  
 
-Para instalar Anaconda y asegurarte de que se instaló correctamente, puedes seguir el tutorial [Anaconda - Installation and Using Conda](https://www.youtube.com/watch?v=YJC6ldI3hWk). De momento solo hace falta que lo veas hasta el minuto 5:20. También al hacer la instalación asegúrate de elegir la versión de Anaconda que viene con Python3 y no la de Python2.
+Para instalar Anaconda y asegurarte de que se instaló correctamente, puedes seguir el tutorial [Anaconda - Installation and Using Conda](https://www.youtube.com/watch?v=YJC6ldI3hWk). De momento solo hace falta que lo veas hasta el minuto 5:20. También, al hacer la instalación, asegúrate de elegir la versión de Anaconda que viene con Python3 y no la de Python2.
 
 #### 4. Aprende a crear y ejecutar un script de Python
 
-¿Qué programa hay que utilizar para escribir código en Python? Teóricamente se puede hacer en un editor de texto estándar (como el Bloc de Notas de Windows), ya que al fin y al cabo el código no es más que texto. Sin embargo, es mucho más recomendable que te bajes un editor de texto avanzado, como puede ser, por ejemplo, [Sublime Text](https://www.sublimetext.com/3).
+¿Qué programa hay que utilizar para escribir código en Python? Teóricamente se puede hacer en un editor de texto estándar (como el Bloc de Notas de Windows), ya que al fin y al cabo el código no es más que texto. Sin embargo, es mucho más recomendable que te bajes un editor de texto avanzado, como puede ser, por ejemplo, [Sublime Text](https://www.sublimetext.com/3) o el [Notepad++](https://notepad-plus-plus.org/download/v7.5.html).
 
-Una vez que tengas tu script vas a querer ejecutarlo. El tutorial [Creating Python Programs](https://en.wikibooks.org/wiki/Python_Programming/Creating_Python_Programs) te explica cómo hacerlo desde la línea de comandos.
+Una vez que tengas tu script, vas a querer ejecutarlo. El tutorial [Creating Python Programs](https://en.wikibooks.org/wiki/Python_Programming/Creating_Python_Programs) te explica cómo hacerlo desde la línea de comandos.
 
-También si quieres puedes aprender a ejecutar tus programas directamente en Sublime Text. Para ello tienes que seguir las instrucciones del tutorial [Running Python Code With SublimeREPL](https://www.youtube.com/watch?v=wM2LbXCkLDI).
+También, si quieres, puedes aprender a ejecutar tus programas directamente en Sublime Text. Para ello tienes que seguir las instrucciones del tutorial [Running Python Code With SublimeREPL](https://www.youtube.com/watch?v=wM2LbXCkLDI).
 
 #### 5. Aprende a utilizar Jupyter Notebook
 
