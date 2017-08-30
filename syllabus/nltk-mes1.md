@@ -1,4 +1,4 @@
-# Grupo de aprendizaje del PLN: objetivos para el mes 1
+# GAPLEN: objetivos para el mes 1
 
 ### Objetivos para los que nunca han programado en Python
 
