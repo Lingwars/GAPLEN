@@ -11,6 +11,7 @@ Welcome to GAPLEN's documentation!
    :caption: Contents:
 
    introduction
+   schedule
 
 
 Indices and tables
