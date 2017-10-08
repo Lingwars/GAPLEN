@@ -1,5 +1,5 @@
 # Grupo de Aprendizaje de Procesamiento del Lenguaje Natural (GAPLEN)
-Este repositorio contiene apuntes, cuadernos y otros materiales generados por el grupo de aprendizaje del procesamiento del lenguaje natural de Lingwars.
+Este repositorio contiene apuntes, cuadernos y otros materiales generados por el grupo de aprendizaje del procesamiento del lenguaje natural de Lingẅars.
 
 ## ¿Qué es GAPLEN?
 GAPLEN es un conjunto de personas que quieren aprender juntas PLN, con el objetivo inicial de estudiar el [libro oficial de NLTK](http://www.nltk.org/book/). Si quieres participar, escríbenos a lingwars@gmail.com y te pasamos el enlace al grupo de Telegram para que te unas.
