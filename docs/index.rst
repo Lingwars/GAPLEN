@@ -12,6 +12,7 @@ Welcome to GAPLEN's documentation!
 
    introduction
    schedule
+   materials
 
 
 Indices and tables
