@@ -25,27 +25,34 @@ En concreto, te recomendamos que sigas los siguientes pasos:
 	.. _tutorial de Django Girls: https://tutorial.djangogirls.org/en/intro_to_command_line/
 
 
-#. **Instala Python**
+#. **Instala Python con Anaconda**
 
-	Para poder utilizar Python lo tienes que tener instalado en tu ordenador. Hay diferentes maneras de hacerlo, pero te recomendamos que utilices `Anaconda`_, una distribución de Python que viene con muchos paquetes preinstalados, entre ellos NLTK.  
+	Para poder utilizar Python lo tienes que tener instalado en tu ordenador. Hay diferentes maneras de hacerlo, pero te recomendamos que utilices `Anaconda`_, una distribución de Python que viene con muchos paquetes preinstalados, entre ellos NLTK. Simplemente elige la versión que corresponde a tu sistema operativo e instálala siguiendo las instrucciones. También, asegúrate de elegir la versión que viene con Python3 y no la de Python2.
 
-	Para instalar Anaconda y asegurarte de que se instaló correctamente, puedes seguir el tutorial `Anaconda Installation and Using Conda`_. De momento solo hace falta que lo veas hasta el minuto 5:20. También, al hacer la instalación, asegúrate de elegir la versión de Anaconda que viene con Python3 y no la de Python2.
+	Una vez finalizada la instalación, en la consola de línea de comandos teclea ``python``. Si te aparece un mensaje de tipo ``Python 3.6.1 |Anaconda 4.4.0 (x86_64)| (default, May 11 2017, 13:04:09)``, es que todo se ha instalado bien y puedes empezar a utilizar Python desde la consola (por ejemplo, intenta escribir ``2 + 2`` y ver que pasa).
+
+	Como puedes ver, instalar Python con Anaconda es muy fácil, pero por si acaso puedes echarle un vistazo al tutorial `Anaconda Installation and Using Conda`_. De momento solo hace falta que lo veas hasta el minuto 5:20.
 
 	.. _Anaconda: https://www.anaconda.com/download/
 	.. _Anaconda Installation and Using Conda: https://www.youtube.com/watch?v=YJC6ldI3hWk
 
-#. **Aprende a crear y ejecutar un script de Python**
+#. **Aprende a crear y ejecutar un script de Python con Spyder**
+ 
+	¿Qué programa hay que utilizar para escribir código en Python y luego ejectuarlo? Hay muchísimas formas de hacerlo, pero nosotros te recomendamos que utilices el IDE (entorno de desarrollo integrado) `Spyder`_ que viene incluido en Anaconda. Para lanzarlo solo tienes que escribir ``spyder`` en tu consola.
 
-	¿Qué programa hay que utilizar para escribir código en Python? Teóricamente se puede hacer en un editor de texto estándar (como el Bloc de Notas de Windows), ya que al fin y al cabo el código no es más que texto. Sin embargo, es mucho más recomendable que te bajes un editor de texto avanzado, como puede ser, por ejemplo, `Sublime Text`_ o el `Notepad++`_.
+	Antes de empezar a trabajar en Spyder, te aconsejamos que hagas un pequeño cambio de configuración. En concreto, en el menu, tendrás que ir a *python > Preferences > Run* y seleccionar *Clear all variables before execution*.
 
-	Una vez que tengas tu script, vas a querer ejecutarlo. El tutorial `Creating Python Programs`_ te explica cómo hacerlo desde la línea de comandos.
+	Para aprender a utilizar Spyder, puedes seguir `este tutorial`_. Ya verás que no es nada difícil.
 
-	También, si quieres, puedes aprender a ejecutar tus programas directamente en Sublime Text. Para ello tienes que seguir las instrucciones del tutorial `Running Python Code With SublimeREPL`_.
+	Si por lo que sea no te gusta Spyder, puedes utilizar otro IDE o incluso escribir tu código en un editor de texto avanzado, como puede ser `Sublime Text`_ o el `Notepad++`_, y luego ejecutarlo desde la consola. El tutorial `Creating Python Programs`_ te explica cómo hacerlo .
 
+
+	.. _Spyder: https://pythonhosted.org/spyder/
+	.. _este tutorial: https://www.youtube.com/watch?v=a1P_9fGrfnU
 	.. _Sublime Text: https://www.sublimetext.com/3
 	.. _Notepad++: https://notepad-plus-plus.org/download/v7.5.html
 	.. _Creating Python Programs: https://en.wikibooks.org/wiki/Python_Programming/Creating_Python_Programs
-	.. _Running Python Code With SublimeREPL: https://www.youtube.com/watch?v=wM2LbXCkLDI
+
 
 #. **Aprende a utilizar Jupyter Notebook**
 
