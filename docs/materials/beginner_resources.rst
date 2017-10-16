@@ -29,6 +29,12 @@ En concreto, te recomendamos que sigas los siguientes pasos:
 
 	Para poder utilizar Python lo tienes que tener instalado en tu ordenador. Hay diferentes maneras de hacerlo, pero te recomendamos que utilices `Anaconda`_, una distribución de Python que viene con muchos paquetes preinstalados, entre ellos NLTK. Simplemente elige la versión que corresponde a tu sistema operativo e instálala siguiendo las instrucciones. También, asegúrate de elegir la versión que viene con Python3 y no la de Python2.
 
+	Si utilizas Windows, sigue las siguientes instrucciones para que la instalación se realice bien (en los otros sistemas operativos no suele haber problemas):
+
+	  - Doble click en el ejecutable descargado. **MUY IMPORTANTE** No ejecutarlo como administrador. Elegir "Just me...". Lo instalará para el usuario actual. No hacen falta derechos administrativos.
+	  - Dejar el directorio de instalación por defecto. Si se cambia no utilizar espacios ni caracteres como ñ o con tilde.
+	  - **MUY IMPORTANTE** En el cuadro "Advanced Installation Options" **NO** marcar "Add Anaconda to my path..." **SÍ** marcar "Register Anaconda as my..."
+
 	Una vez finalizada la instalación, en la consola de línea de comandos teclea ``python``. Si te aparece un mensaje de tipo ``Python 3.6.1 |Anaconda 4.4.0 (x86_64)| (default, May 11 2017, 13:04:09)``, es que todo se ha instalado bien y puedes empezar a utilizar Python desde la consola (por ejemplo, intenta escribir ``2 + 2`` y ver que pasa).
 
 	Como puedes ver, instalar Python con Anaconda es muy fácil, pero por si acaso puedes echarle un vistazo al tutorial `Anaconda Installation and Using Conda`_. De momento solo hace falta que lo veas hasta el minuto 5:20.
@@ -44,7 +50,7 @@ En concreto, te recomendamos que sigas los siguientes pasos:
 
 	Para aprender a utilizar Spyder, puedes seguir `este tutorial`_. Ya verás que no es nada difícil.
 
-	Si por lo que sea no te gusta Spyder, puedes utilizar otro IDE o incluso escribir tu código en un editor de texto avanzado, como puede ser `Sublime Text`_ o el `Notepad++`_, y luego ejecutarlo desde la consola. El tutorial `Creating Python Programs`_ te explica cómo hacerlo .
+	Si por lo que sea no te gusta Spyder, puedes utilizar otro IDE o incluso escribir tu código en un editor de texto avanzado, como puede ser `Sublime Text`_ o el `Notepad++`_, y luego ejecutarlo desde la consola. El tutorial `Creating Python Programs`_ te explica cómo hacerlo.
 
 
 	.. _Spyder: https://pythonhosted.org/spyder/
