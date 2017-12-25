@@ -15,6 +15,7 @@ Nuestro objetivo será saber cómo funcionan los siguientes métodos que se pued
  - s.format( )
  - s.index('a'), s.rindex('a')
  - s.count('a')
+ - s.translate(str.maketrans('a', 'b'))
 
 Los siguientes recursos nos ayudarán a hacerlo:
 
