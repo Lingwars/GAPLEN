@@ -1,0 +1,23 @@
+* Chapter 1: Computing with Language: Texts and Words
++ [[file:book.py]]
++ file:browncorpus.py
++ file:fdist.py
++ file:bigrams.py
+
+* Chapter 2: Accessing Text Corpora and Lexical Resources
++ file:gutenberg.py
++ file:webtext.py
++ file:chatroom.py
++ file:browncorpus.py
++ file:reuters.py
++ file:inaugural.py
++ file:parsetree.py
++ file:reuters.py
++ file:tokenizeandtag.py
++ file:udhr.py
++ file:dict.py
++ file:bigrams.py
++ file:code_unusual.py
++ file:stopwords.py
+
+* Chapter 3: Processing Raw Text
