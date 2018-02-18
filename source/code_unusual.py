@@ -6,5 +6,5 @@ def unusual_words(text):
      unusual = text_vocab - english_vocab
      return sorted(unusual)
 
-print unusual_words(nltk.corpus.gutenberg.words('austen-sense.txt'))
-print unusual_words(nltk.corpus.nps_chat.words())
+print(unusual_words(nltk.corpus.gutenberg.words('austen-sense.txt')))
+print(unusual_words(nltk.corpus.nps_chat.words()))

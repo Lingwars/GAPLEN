@@ -23,5 +23,5 @@ train_set, test_set = featuresets[500:], featuresets[:500]
 classifier = nltk.NaiveBayesClassifier.train(train_set)
 print("Neo is " + classifier.classify(gender_features('Neo')))
 print("Trinity is " + classifier.classify(gender_features('Trinity')))
-print("The classifier has an accuracy: " + str(nltk.classify.accuracy(classifier, test_set)))
-print("The most informative features are: " + str(classifier.show_most_informative_features(5)))
+print("The classifier has an accuracy: " + nltk.classify.accuracy(classifier, test_set))
+print("The most informative features are: " + classifier.show_most_informative_features(5))
