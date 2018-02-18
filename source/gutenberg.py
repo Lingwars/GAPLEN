@@ -1,8 +1,8 @@
 import nltk
 from nltk.corpus import gutenberg
-print nltk.corpus.gutenberg.fileids()
-print gutenberg.fileids()
-print gutenberg.words('austen-sense.txt')
+print(nltk.corpus.gutenberg.fileids())
+print(gutenberg.fileids())
+print(gutenberg.words('austen-sense.txt'))
 
 for fileid in gutenberg.fileids():
     num_chars = len(gutenberg.raw(fileid))
