@@ -1,8 +1,8 @@
 import nltk
 from nltk.corpus import stopwords
 
-print stopwords.words('english')
-print stopwords.words('spanish')
+print(stopwords.words('english'))
+print(stopwords.words('spanish'))
 
 def content_fraction(text):
     stopwords = nltk.corpus.stopwords.words('english')
