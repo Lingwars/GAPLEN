@@ -8,3 +8,4 @@ Aquí encontrarás y apuntes materiales que te pueden ayudar a aprender sobre Py
 
    materials/beginner_resources
    materials/error-win10-install-nltk
+   materials/katas

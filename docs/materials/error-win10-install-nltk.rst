@@ -5,7 +5,7 @@ Hemos detectado un pequeño error que salta al intentar instalar NLTK en Windows
 
 Quizá te haya pasado esto: estás siguiendo al pie de la letra el libro de NLTK, te has instalado Python 3.6, te has descargado NLTK 3.4 y, cuando vas a ejecutar este último para instalarlo, ¡bam!, te sale este mensaje:
 
-  	.. code:: bash
+   .. code:: bash
 
 		Python version -32 required, which was not found in the registry
 
