@@ -17,14 +17,14 @@ def gender_features(name):
 myfile = open("bottlemembers.org", "a+")
 
 def add_member():
-    member = raw_input("Write the bottle member name: ")
+    member = input("Write the bottle member name: ")
     myfile.write(member + "\n")
 
-add = raw_input("Do you want add a bottle member (y/n): ")
+add = input("Do you want add a bottle member (y/n): ")
 if (add == "y"):
     while True:    
         add_member()    
-        other = raw_input("Do you want to continue (y/n): ")
+        other = input("Do you want to continue (y/n): ")
         if (other == "n"):
             myfile.close
             break

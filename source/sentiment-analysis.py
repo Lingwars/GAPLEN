@@ -8,7 +8,7 @@ obj_docs = [(sent, 'obj') for sent in subjectivity.sents(categories='obj')[:n_in
 len(subj_docs), len(obj_docs)
 
 # Each document is represented by a tuple (sentence, label)
-print subj_docs[0]
+print(subj_docs[0])
 
 # We separately split subjective and objective instances to keep a balanced uniform class distribution in both train and test sets.
 train_subj_docs = subj_docs[:80]
@@ -22,7 +22,7 @@ all_words_neg = sentim_analyzer.all_words([mark_negation(doc) for doc in trainin
 
 # We use simple unigram word features, handling negation:
 unigram_feats = sentim_analyzer.unigram_word_feats(all_words_neg, min_freq=4)
-print len(unigram_feats)
+print(len(unigram_feats))
 sentim_analyzer.add_feat_extractor(extract_unigram_feats, unigrams=unigram_feats)
 
 # We apply features to obtain a feature-value representation of our datasets:

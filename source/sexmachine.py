@@ -14,8 +14,8 @@ def gender_features(name):
         features["has({})".format(letter)] = (letter in name.lower())
     return features
 
-nombre1 = raw_input("What's your name?: ")
-nombre2 = raw_input("What's my name?: ")
+nombre1 = input("What's your name?: ")
+nombre2 = input("What's my name?: ")
 
 #print gender_features('John') 
 
