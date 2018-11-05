@@ -26,6 +26,6 @@ from nltk.book import *
 
 class TddInPythonExample(unittest.TestCase):
 
-    def test_concordance_method_returns_correct_result(self):
+    def test_length_text3_returns_correct_result(self):
         length = len(text3)
         self.assertEqual(length, 44764)
