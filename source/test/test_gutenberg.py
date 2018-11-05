@@ -28,4 +28,7 @@ class TddInPythonExample(unittest.TestCase):
 
     def test_length_text3_returns_correct_result(self):
         length = len(text3)
-        self.assertEqual(length, 44764)
+        self.assertTrue(length > 4000)
+
+    def test_count_in_returns_correct_result(self):
+        self.assertTrue(text5.count("in")>0)
