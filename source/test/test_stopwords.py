@@ -24,8 +24,15 @@
 import unittest
 import nltk
 from nltk.corpus import stopwords
+from app.stopwords import StopWords
+
 
 class TddInPythonExample(unittest.TestCase):
+
+    def test_stopwords_remove_method_returns_correct_result(self):
+        sw = StopWords()
+        self.assertEqual(['For', 'sequences', ',', '(', 'strings', ',', 'lists', ',', 'tuples', ')', ',', 'use', 'fact', 'empty', 'sequences', 'false', '.'], sw.remove("For sequences, (strings, lists, tuples), use the fact that empty sequences are false."))
+
 
     def test_stopwords_definition_method_returns_correct_result(self):
         st0 = stopwords.words('english')
