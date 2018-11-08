@@ -26,7 +26,7 @@ import nltk
 from nltk.corpus import PlaintextCorpusReader
 from nltk.corpus import inaugural
 from nltk.corpus import gutenberg
-
+from nltk.corpus import reuters
 
 class TddInPythonExample(unittest.TestCase):
 
@@ -42,3 +42,7 @@ class TddInPythonExample(unittest.TestCase):
     def test_corpus_sents_method_returns_correct_result(self):
         sents1 = [['[', 'Sense', 'and', 'Sensibility', 'by', 'Jane', 'Austen', '1811', ']'], ['CHAPTER', '1']]
         self.assertEqual(gutenberg.sents('austen-sense.txt')[0:2], sents1)
+
+    def	test_corpus_categories_method_returns_correct_result(self):
+        cat = reuters.categories()[0:2]
+        self.assertEqual(cat, ['acq', 'alum'])
