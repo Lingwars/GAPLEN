@@ -28,7 +28,7 @@ from nltk.corpus import PlaintextCorpusReader
 
 class TddInPythonExample(unittest.TestCase):
 
-    def test_stopwords_remove_method_returns_correct_result(self):
+    def test_corpus_method_returns_correct_result(self):
         corpus_root = '/usr/share/dict'
         wordlists = PlaintextCorpusReader(corpus_root, '.*')
         self.assertEqual(['README.select-wordlist', 'american-english', 'cracklib-small', 'words', 'words.pre-dictionaries-common'], wordlists.fileids())
