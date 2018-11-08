@@ -24,6 +24,7 @@
 import unittest
 import nltk
 from nltk.corpus import PlaintextCorpusReader
+from nltk.corpus import inaugural
 
 
 class TddInPythonExample(unittest.TestCase):
@@ -32,3 +33,7 @@ class TddInPythonExample(unittest.TestCase):
         corpus_root = '/usr/share/dict'
         wordlists = PlaintextCorpusReader(corpus_root, '.*')
         self.assertEqual(['README.select-wordlist', 'american-english', 'cracklib-small', 'words', 'words.pre-dictionaries-common'], wordlists.fileids())
+
+    def test_corpus_fileids_method_returns_correct_result(self):
+        fileids = inaugural.fileids()
+        self.assertEqual(['1789-Washington.txt', '1793-Washington.txt', '1797-Adams.txt'], fileids[0:3])
