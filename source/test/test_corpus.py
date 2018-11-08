@@ -25,6 +25,7 @@ import unittest
 import nltk
 from nltk.corpus import PlaintextCorpusReader
 from nltk.corpus import inaugural
+from nltk.corpus import gutenberg
 
 
 class TddInPythonExample(unittest.TestCase):
@@ -37,3 +38,7 @@ class TddInPythonExample(unittest.TestCase):
     def test_corpus_fileids_method_returns_correct_result(self):
         fileids = inaugural.fileids()
         self.assertEqual(['1789-Washington.txt', '1793-Washington.txt', '1797-Adams.txt'], fileids[0:3])
+
+    def test_corpus_sents_method_returns_correct_result(self):
+        sents1 = [['[', 'Sense', 'and', 'Sensibility', 'by', 'Jane', 'Austen', '1811', ']'], ['CHAPTER', '1']]
+        self.assertEqual(gutenberg.sents('austen-sense.txt')[0:2], sents1)
