@@ -36,7 +36,10 @@ class TddInPythonExample(unittest.TestCase):
         s = syns[0].lemmas()[0].name()
         self.assertEqual("plan", s)
 
-
+    def test_similarity_method_returns_correct_result(self):
+        w1 = wordnet.synset('ship.n.01')
+        w2 = wordnet.synset('boat.n.01')
+        self.assertTrue(w1.wup_similarity(w2) > 0.5)
 
 if __name__ == '__main__':
     unittest.main()
