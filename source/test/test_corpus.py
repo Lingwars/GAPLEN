@@ -27,10 +27,11 @@ from nltk.corpus import PlaintextCorpusReader
 from nltk.corpus import inaugural
 from nltk.corpus import gutenberg
 from nltk.corpus import reuters
+from nltk.corpus import cmudict
 
 class TddInPythonExample(unittest.TestCase):
 
-    def test_corpus_method_returns_correct_result(self):
+    def test_new_corpus_returns_correct_result(self):
         corpus_root = '/usr/share/dict'
         wordlists = PlaintextCorpusReader(corpus_root, '.*')
         self.assertEqual(['README.select-wordlist', 'american-english', 'cracklib-small', 'words', 'words.pre-dictionaries-common'], wordlists.fileids())
@@ -46,3 +47,8 @@ class TddInPythonExample(unittest.TestCase):
     def	test_corpus_categories_method_returns_correct_result(self):
         cat = reuters.categories()[0:2]
         self.assertEqual(cat, ['acq', 'alum'])
+
+    def test_corpus_cmudict_method_returns_correct_result(self):
+        transcr = cmudict.dict()
+        t = [transcr[w][0] for w in 'Natural Language Tool Kit'.lower().split()]
+        self.assertEqual(t, [['N', 'AE1', 'CH', 'ER0', 'AH0', 'L'], ['L', 'AE1', 'NG', 'G', 'W', 'AH0', 'JH'], ['T', 'UW1', 'L'], ['K', 'IH1', 'T']])
