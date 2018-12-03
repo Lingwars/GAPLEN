@@ -1,0 +1,201 @@
+#+TITLE: Practical NLTK
+#+AUTHOR: David Arroyo Menéndez
+#+OPTIONS: H:2 toc:nil num:t
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+BEAMER_THEME: Madrid
+#+COLUMNS: %45ITEM %10BEAMER_ENV(Env) %10BEAMER_ACT(Act) %4BEAMER_COL(Col) %8BEAMER_OPT(Opt)
+
+* Summary
+** Practical NLTK: Summary
+#+BEGIN_SRC bash
+$ git clone https://github.com/davidam/python-examples.git
+#+END_SRC
+
+1. Sentiment Analysis
+2. Detect Gender
+3. Sentence Similarity
+4. Text Summary
+5. Classify Documents
+6. Manage Words
+singulars/plurals, dictionary entries, stopwords
+7. Gramatical Trees
+8. Extract Keywords
+9. Disambiguation
+
+**** This will be formatted as a beamer note                       :B_note:
+     :PROPERTIES:
+     :BEAMER_env: note
+     :END:
+
+** Sentiment Analysis
+*** Tweets positives versus negatives                               :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 tweet-sentyment.py
+    $ python3 tweepy-example.py
+#+END_SRC
+
+** Detect Gender
+*** Your name is your gender                                        :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 sexmachine.py
+    $ python3 perceval_git_counter_sexmachine.py
+    $ python3 perceval_mbox_sexmachine.py
+#+END_SRC
+
+** Sentence Similarity
+*** Your name is your gender                                        :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 sentence-similarity.py
+    $ nosetests3 test/test_sentencesimilarity.py
+#+END_SRC
+
+** Classify Documents
+*** Classify Documents                                              :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 doc-classification-ch06.py
+#+END_SRC
+
+** Classify Newsgroups
+*** Classify Newsgroups                                             :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 nltk-sklearn.py
+#+END_SRC
+
+** Synonims and Antonims
+*** Synonims and Antonims                                           :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 synonims-antonims.py
+#+END_SRC
+
+** Singulars and Plurals
+*** Singulars and Plurals 					    :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 stem.py
+    $ nosetests3 test/test_stem.py
+#+END_SRC
+** Stopwords
+For some search engines, these are some of the most common, short
+function words, such as the, is, at, which, and on. In this case, stop
+words can cause problems when searching for phrases that include them
+
+*** Singulars and Plurals 					    :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 stopwords.py
+    $ nosetests3 test/test_stopwords.py
+#+END_SRC
+
+** Lemmas: dictionary entries
+*** Lemmas: dictionary entries                                      :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 wordnet-lemmatizer.py
+    $ nosetests3 test/test_wordnet.py:TddInPythonExample.test_synonims_lemmas_method_returns_correct_result
+#+END_SRC
+
+** Trees
+*** Trees                                                           :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    I can build a gramatic or semantic tree from a sentence
+    $ python3 semantic-tree.py
+    I can generate sentences from a gramatic
+    $ python3 howtos/generate.py
+    I can visualize a gramatic
+    $ python3 parse-tree.py
+    I can obtain bigrams, trigrams or ngrams
+    $ python3 bigrams-trigrams.py
+    I can print a tree from sintactic pairs
+    $ python3 code-chinker.py
+    I can build sintactic pairs from a sentence and print a tree
+    $ python3 tokenizeandtag.py
+#+END_SRC
+
+** Corpus
+*** Corpus                                                          :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 gutenberg.py
+    $ nosetests3 test/test_gutenberg.py
+    $ python3 corpus-howto-new-corpus.py
+#+END_SRC
+
+** Keywords: rake algorithm
+*** Keywords: rake algorithm                                        :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 nltk-rake.py
+#+END_SRC
+
+** Disambiguation
+*** Disambiguation                                        :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+$ python test_all_words_wsd.py
+$ python test_wsd.py
+
+# Remember synset
+$ python3 wordnet-example.py
+$ nosetests3 test/test_wordnet.py
+#+END_SRC
+
+** Sharing data models: pickle
+*** Sharing data models: pickle                                     :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+$ python3 nltk-pickle.py
+#+END_SRC
+
+** Support Python and Libremanuals
+El Tutorial de Python
+por Guido Van Rossum
