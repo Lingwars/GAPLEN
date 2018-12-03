@@ -143,10 +143,12 @@ words can cause problems when searching for phrases that include them
     $ python3 parse-tree.py
     I can obtain bigrams, trigrams or ngrams
     $ python3 bigrams-trigrams.py
+    $ nosetests3 test/test_bigrams_trigrams.py
     I can print a tree from sintactic pairs
     $ python3 code-chinker.py
     I can build sintactic pairs from a sentence and print a tree
     $ python3 tokenizeandtag.py
+    $ nosetests3 test/test_tokenizeandtag.py
 #+END_SRC
 
 ** Corpus
