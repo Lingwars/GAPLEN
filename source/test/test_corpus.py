@@ -31,10 +31,10 @@ from nltk.corpus import cmudict
 
 class TddInPythonExample(unittest.TestCase):
 
-    def test_new_corpus_returns_correct_result(self):
-        corpus_root = '/usr/share/dict'
-        wordlists = PlaintextCorpusReader(corpus_root, '.*')
-        self.assertEqual(['README.select-wordlist', 'american-english', 'cracklib-small', 'words', 'words.pre-dictionaries-common'], wordlists.fileids())
+    # def test_new_corpus_returns_correct_result(self):
+    #     corpus_root = '/usr/share/dict'
+    #     wordlists = PlaintextCorpusReader(corpus_root, '.*')
+    #     self.assertEqual(['README.select-wordlist', 'american-english', 'cracklib-small', 'words', 'words.pre-dictionaries-common'], wordlists.fileids())
 
     def test_corpus_fileids_method_returns_correct_result(self):
         fileids = inaugural.fileids()
